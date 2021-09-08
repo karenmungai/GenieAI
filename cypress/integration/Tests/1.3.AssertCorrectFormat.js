@@ -1,7 +1,7 @@
 describe('Test Document Editing', function()
 {
 
-  it('Load Online Editor', () => {
+  it('Load Online Text Editor', () => {
         //uncaught exception on the system   
     Cypress.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
