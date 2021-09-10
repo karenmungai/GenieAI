@@ -15,7 +15,7 @@ Code editor used for this project
 
 **3. Load Visual Studio Editor on your machine and open the project**
 
-CypressClimateEdge\cypress\integration
+CypressGenieAI\cypress
    
 Open a terminal and enter the following command
 
@@ -32,7 +32,7 @@ Followed by
 Cypress automation window, will load with a list of all the tests
 
 
-**4.Run Tessts**
+**4.Run Tests**
 On the Cypress Automation Window
 
 **To run one test**
