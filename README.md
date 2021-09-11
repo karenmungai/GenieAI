@@ -17,7 +17,7 @@ Code editor used for this project
 
 CypressGenieAI\cypress
    
-Open a terminal and enter the following command
+On visual studio code open a terminal and enter the following command
 
 > npm init -y
 
@@ -45,11 +45,9 @@ Open a terminal and enter the command
 
 npx cypress run --record --key 24aeca10-e9a7-4955-b976-5878e2c01995
 
+This is going to run the tests in the terminal, it will also load a page on the browser where the results will be displayed. It will display the results of previous executions
 
-
-this is going to run the tests in the terminal however they can also be accesed in the following link as well as see the results - passes and fails. Also the results of previous executions
 Let me know if you have an issue accessing it
-
 > https://dashboard.cypress.io/invitation/d2847fb8-417b-43b8-a778-9d7938e3567c
 
 
