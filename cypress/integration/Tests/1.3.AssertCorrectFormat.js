@@ -15,7 +15,7 @@ describe('Test Document Editing', function()
 
   })
 
-  it('Enter First line Online Editor', () => {  
+  it('Enter First line of Text', () => {  
 
 
       //Clear the text area
@@ -34,7 +34,7 @@ describe('Test Document Editing', function()
 
   })
 
-  it('Enter Second line Online Editor',()=>{
+  it('Enter Second line of Text',()=>{
             
 
      //Enter 2nd line of text

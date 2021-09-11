@@ -1,7 +1,7 @@
 describe('Test Document Editing', function()
 {
 
-  it('Load Online Editor', () => {
+  it('Load Online Text Editor', () => {
         //uncaught exception on the system   
     Cypress.on('uncaught:exception', (err, runnable) => {
         // returning false here prevents Cypress from
@@ -15,10 +15,7 @@ describe('Test Document Editing', function()
 
   })
 
-  it('Enter First line Online Editor', () => {  
-
-
-
+  it('Enter First line Of Text', () => {  
 
       //Assert text on the online editor page
       cy.contains('A toolkit for building rich-text editors on the web').should('be.visible')
@@ -34,21 +31,6 @@ describe('Test Document Editing', function()
       cy.get('#editor > div > div.ProseMirror.ProseMirror-example-setup-style').clear()  
       
 
-
-
-     
-       // cy.get('#editor > div > div.ProseMirror-menubar > span:nth-child(7) > div > div').contains('Type').next('Level 2').then($el=>{
-         //   cy.wrap($el).invoke('show')
-          //  cy.wrap($el).contains('Family').click()
-        //})
-
-        //cy.get('#editor > div > div.ProseMirror.ProseMirror-example-setup-style').type('Genie AI{enter}')
-        //cy.get('#editor > div > div.ProseMirror-menubar > span:nth-child(7) > div > div').contains('Type').next("Level 2").then($el=>{
-           // cy.wrap($el).invoke('show')
-           // cy.wrap($el).contains('Family').click()
-        //})
-
-
       //Enter first line of text
       
       cy.get('#editor > div > div.ProseMirror.ProseMirror-example-setup-style > p:nth-child(1)') //Select Text
@@ -62,7 +44,7 @@ describe('Test Document Editing', function()
 
   })
 
-  it('Enter Second line Online Editor',()=>{
+  it('Enter Second line Of Text',()=>{
             
 
      //Enter 2nd line of text
